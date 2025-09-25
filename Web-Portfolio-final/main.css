@@ -131,7 +131,7 @@ section {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    padding: 1rem 2.8rem;
+    padding: 1rem 2rem;
     background-color: transparent;
     border-radius: 4rem;
     font-size: 1.6rem;
@@ -706,11 +706,8 @@ section {
 }
 
 .project-box2 .btn, .project-box3 .btn, .project-box4 .btn {
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-size: clamp(1.5rem, 1vw, 2rem);
     color: #4caf50;
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
     gap: 0.5rem;
 }
 
@@ -829,10 +826,6 @@ section {
 }
 
 @media (max-width: 768px) {
-    .home {
-        padding-top: 5rem;
-        padding: 3rem 1rem;
-    }
     .icons {
         display: inline-flex;
         z-index: 101;
