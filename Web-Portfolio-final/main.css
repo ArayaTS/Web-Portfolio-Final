@@ -127,6 +127,33 @@ section {
     margin: 10rem 0 0 5%;
 }
 
+.btn{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2.8rem;
+    background-color: transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #69c686;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #69c686;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 2rem 3.5rem;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1.4s;
+}
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #69c686;
+    color: black;
+    box-shadow: 0 0 25px #69c686;
+}
+
 .name {
     display: inline-block;
     white-space: nowrap;
@@ -434,27 +461,12 @@ section {
     width: 100%;
 }
 
-.skill-bar {
-    width: 100%;
-    max-width: 300px;
-    background-color: #e0e0e0;
-    height: 30px;
-    border-radius: 15px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.skill-level {
-    height: 100%;
-    background-color: #4caf50;
-    text-align: right;
-    line-height: 30px;
-    color: white;
-    padding-right: 11px;
-    font-size: 14px;
-    border-radius: 15px;
-    margin: 0;
-    transition: width 1.5s ease-in-out;
+.aboutme-boxii h4 {
+    font-size: 1.5rem;
+    color: #666;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: 200;
 }
 
 .aboutmebox {
@@ -471,7 +483,7 @@ section {
     max-width: 107rem;
     height: auto;
     background-color: #e8fbeebc;
-    margin: 1rem auto;
+    margin: 2rem auto;
     border-radius: 10px;
     box-shadow: 0 0 10px #9b9a9bcb;
     opacity: 0;
@@ -682,7 +694,7 @@ section {
 }
 
 .project-box2 h3, .project-box3 h3, .project-box4 h3 {
-    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
     margin: 0.5rem 0;
     text-align: center;
 }
@@ -701,6 +713,8 @@ section {
     align-items: center;
     gap: 0.5rem;
 }
+
+
 
 @media (max-width: 1300px) {
     .home {
@@ -800,7 +814,7 @@ section {
         width: 40%;
         max-width: 107rem;
         height: 141rem;
-        margin: 2rem auto;
+        margin: 1rem auto;
         padding: 2rem;
     }
     .aboutme-img {
@@ -867,7 +881,7 @@ section {
     .home-imgii {
         width: 50vw;
         height: 50vw;
-        margin: 10rem 0 0 25%;
+        margin: 10rem 0 0 21%;
         transform: translateX(-50%);
     }
     .aboutmei {
